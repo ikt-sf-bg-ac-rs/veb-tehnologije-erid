@@ -13,7 +13,8 @@ function podrazumevaniPrikaz(){
 
 function prikazPredmetaIzPrveGodine(){
 
-    predmetiPrvaGodina.style.display = 'block';
+    predmetiPrvaGodina.style.display = 'flex';
+    predmetiPrvaGodina.style.display.flexDirection = 'column';
     predmetiDrugaGodina.style.display = 'none';
 
 }
@@ -21,7 +22,8 @@ function prikazPredmetaIzPrveGodine(){
 function prikazPredmetaIzDrugeGodine(){
 
     predmetiPrvaGodina.style.display = 'none';
-    predmetiDrugaGodina.style.display = 'block';
+    predmetiDrugaGodina.style.display = 'flex';
+    predmetiDrugaGodina.style.display.flexDirection = 'column';
 
 }
 
