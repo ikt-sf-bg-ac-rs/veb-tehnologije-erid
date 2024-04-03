@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+body{
+
+    padding: 0;
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+    background-color: rgba(14, 140, 244, 0.2);
+
+}
+
+.glavniDiv{
+
+    width: 80%;
+    border: 2px solid rgb(20, 154, 237);
+    border-radius: 20px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    
+}
+
+.glavniDiv div{
+
+    width: 80%;
+    /* border: 1px solid rgb(17, 119, 235);
+    border-radius: 10px; */
+    margin: 0 auto 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+
+img{
+
+    width: 80%;
+    border-radius: 20px;
+    filter: drop-shadow(2px 2px 2px gray);
+}
+
+button{
+
+    width: 10em;
+    border: 1px solid rgb(20, 154, 237);
+    border-radius: 10px;
+    padding: 0.6em;
+    background-color: white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+
+ul{
+    width: 12em;
+    list-style: none;
+    margin: 0 auto 0 auto;
+
+}
+
+ul li{
+
+    width: 10em;
+    border: 1px solid rgb(0, 174, 255);
+    border-radius: 10px;
+    padding: 0.6em;
+
+}
